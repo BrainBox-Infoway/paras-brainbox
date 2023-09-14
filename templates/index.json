@@ -27,9 +27,11 @@
         "button"
       ],
       "settings": {
+        "show_page_width": false,
+        "image": "shopify:\/\/shop_images\/theme_cover_image.jpg",
         "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "inverse",
