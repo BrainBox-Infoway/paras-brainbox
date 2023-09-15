@@ -93,6 +93,10 @@ html.no-js .no-js-hidden {
   display: none !important;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 .page-width {
   max-width: var(--page-width);
   margin: 0 auto;
@@ -3554,6 +3558,3 @@ details-disclosure > details {
   padding: 0;
 }
 
-html {
-  font-size: 62.5%;
-}
