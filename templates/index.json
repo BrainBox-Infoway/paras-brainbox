@@ -41,6 +41,68 @@
         "show_text_below": false
       }
     },
+    "7026e4fe-ed96-438b-8d5d-ea9c9051455c": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--21066357670191__7026e4fe-ed96-438b-8d5d-ea9c9051455c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<a href=\"https:\/\/www.studioproper.com\/blogs\/proper-journal\/enhancing-customer-experience-how-ipad-cases-and-hand-straps-revolutionise-anz-bank-branches\">Enhancing Customer Experience: How iPad Cases and Hand Straps Revolutionise ANZ Bank Branches<\/a>",
+            "heading_size": "h2"
+          }
+        },
+        "template--21066357670191__7026e4fe-ed96-438b-8d5d-ea9c9051455c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In the ever-evolving landscape of banking, the emphasis on customer experience has never been more crucial. ANZ Bank has taken a proactive step tow...<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--21066357670191__7026e4fe-ed96-438b-8d5d-ea9c9051455c-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read more",
+            "button_link": "shopify:\/\/pages\/about-us",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "template--21066357670191__7026e4fe-ed96-438b-8d5d-ea9c9051455c-heading-1",
+        "template--21066357670191__7026e4fe-ed96-438b-8d5d-ea9c9051455c-text-1",
+        "template--21066357670191__7026e4fe-ed96-438b-8d5d-ea9c9051455c-button-1"
+      ],
+      "settings": {
+        "show_page_width": false,
+        "image": "shopify:\/\/shop_images\/working-from-home.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-82c1e7fa-a23c-46fa-93bd-8168b13a44ea",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "88a25716-49d6-4644-9809-3c0b7d47a776": {
+      "type": "Feature-slider",
+      "settings": {
+        "collection_main": "frontpage",
+        "collection_limit": 10,
+        "bg": "#b0b0b0",
+        "title": "Featured Collection Slider",
+        "img_width": 200,
+        "cell_align": "center",
+        "title_mb": 38,
+        "cell_width": "25%",
+        "wrap_around": "true",
+        "mr": 16
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -72,6 +134,8 @@
   },
   "order": [
     "image_banner",
+    "7026e4fe-ed96-438b-8d5d-ea9c9051455c",
+    "88a25716-49d6-4644-9809-3c0b7d47a776",
     "featured_collection"
   ]
 }
