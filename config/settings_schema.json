@@ -165,7 +165,7 @@
           }
         ]
       },
-       {
+      {
         "type": "select",
         "id": "custom_body_font_weight",
         "label": "Custom font weight",
@@ -240,7 +240,7 @@
   },
   {
     "name": "t:settings_schema.layout.name",
-    "settings": [ 
+    "settings": [
       {
         "type": "range",
         "id": "page_width",
