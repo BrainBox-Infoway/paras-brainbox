@@ -1,7 +1,7 @@
 {
   "current": {
     "logo_width": 90,
-    "type_header_font": "abril_fatface_n4",
+    "type_header_font": "arapey_n4",
     "heading_scale": 100,
     "type_body_font": "sans-serif",
     "body_scale": 100,
@@ -139,7 +139,7 @@
     "color_schemes": {
       "background-1": {
         "settings": {
-          "background": "#ffffff",
+          "background": "#f6f6f6",
           "background_gradient": "",
           "text": "#121212",
           "button": "#121212",
@@ -194,11 +194,11 @@
       },
       "scheme-82c1e7fa-a23c-46fa-93bd-8168b13a44ea": {
         "settings": {
-          "background": "#fff",
-          "background_gradient": "linear-gradient(34deg, rgba(10, 39, 237, 0.43) 52%, rgba(220, 220, 220, 1) 100%)",
-          "text": "#ffffff",
+          "background": "#f6f6f6",
+          "background_gradient": "",
+          "text": "#4b4d4d",
           "button": "#121212",
-          "button_label": "#fff",
+          "button_label": "#ffffff",
           "secondary_button_label": "#121212",
           "shadow": "#121212"
         }

@@ -3,15 +3,23 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
+        "3b40da1a-b74e-4423-8be4-c04b3006c3fd": {
+          "type": "text",
+          "settings": {
+            "text": "THE FINEST DESIGNED BY HAND",
+            "text_style": "body"
+          }
+        },
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Browse our latest products",
+            "heading": "Heraldic Jewelry",
             "heading_size": "h0"
           }
         },
         "button": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_label_1": "Shop all",
             "button_link_1": "shopify:\/\/collections\/all",
@@ -23,6 +31,7 @@
         }
       },
       "block_order": [
+        "3b40da1a-b74e-4423-8be4-c04b3006c3fd",
         "heading",
         "button"
       ],
@@ -41,101 +50,177 @@
         "show_text_below": false
       }
     },
-    "7026e4fe-ed96-438b-8d5d-ea9c9051455c": {
-      "type": "image-with-text",
+    "e3b741aa-7f91-45a5-b7b5-4300edef1dcb": {
+      "type": "rich-text",
       "blocks": {
-        "template--21066357670191__7026e4fe-ed96-438b-8d5d-ea9c9051455c-heading-1": {
+        "template--21066357670191__e3b741aa-7f91-45a5-b7b5-4300edef1dcb-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<a href=\"https:\/\/www.studioproper.com\/blogs\/proper-journal\/enhancing-customer-experience-how-ipad-cases-and-hand-straps-revolutionise-anz-bank-branches\">Enhancing Customer Experience: How iPad Cases and Hand Straps Revolutionise ANZ Bank Branches<\/a>",
-            "heading_size": "h2"
+            "heading": "DESIGN YOUR OWN CUSTOM JEWELRY PIECE",
+            "heading_size": "h1"
           }
         },
-        "template--21066357670191__7026e4fe-ed96-438b-8d5d-ea9c9051455c-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>In the ever-evolving landscape of banking, the emphasis on customer experience has never been more crucial. ANZ Bank has taken a proactive step tow...<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--21066357670191__7026e4fe-ed96-438b-8d5d-ea9c9051455c-button-1": {
+        "template--21066357670191__e3b741aa-7f91-45a5-b7b5-4300edef1dcb-button-1": {
           "type": "button",
           "settings": {
-            "button_label": "Read more",
-            "button_link": "shopify:\/\/pages\/about-us",
-            "button_style_secondary": true
+            "button_label": "Start a free consultation",
+            "button_link": "#",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "4df5043a-a85c-480b-9de1-8f4f80dd9ec4": {
+          "type": "caption",
+          "settings": {
+            "caption": "How does it work?",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "4a00edc1-7be4-4142-8f65-cfd074a9dc79": {
+          "type": "button",
+          "settings": {
+            "button_label": "How does it work?",
+            "button_link": "#",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "template--21066357670191__7026e4fe-ed96-438b-8d5d-ea9c9051455c-heading-1",
-        "template--21066357670191__7026e4fe-ed96-438b-8d5d-ea9c9051455c-text-1",
-        "template--21066357670191__7026e4fe-ed96-438b-8d5d-ea9c9051455c-button-1"
+        "template--21066357670191__e3b741aa-7f91-45a5-b7b5-4300edef1dcb-heading-1",
+        "template--21066357670191__e3b741aa-7f91-45a5-b7b5-4300edef1dcb-button-1",
+        "4df5043a-a85c-480b-9de1-8f4f80dd9ec4",
+        "4a00edc1-7be4-4142-8f65-cfd074a9dc79"
       ],
       "settings": {
-        "show_page_width": false,
-        "image": "shopify:\/\/shop_images\/working-from-home.jpg",
-        "height": "adapt",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-82c1e7fa-a23c-46fa-93bd-8168b13a44ea",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "20d9df61-c1e0-4b7e-9f77-d0c497fc25e2": {
+      "type": "multirow",
+      "blocks": {
+        "template--21066357670191__20d9df61-c1e0-4b7e-9f77-d0c497fc25e2-row-1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fine-craft.jpg",
+            "caption": "",
+            "heading": "Inspired by a rich heraldic tradition.",
+            "text": "<p>Our dedication to<strong>superior craftsmanship<\/strong>and the finest design in the world will transform your heraldic design into a unique and treasured piece of jewelry.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--21066357670191__20d9df61-c1e0-4b7e-9f77-d0c497fc25e2-row-2": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hand-design.jpg",
+            "caption": "",
+            "heading": "See your idea come to life.",
+            "text": "<p>Start a<strong>free consultation<\/strong>and you will be professionally guided through the entire process of creating your own bespoke Family Crest Jewelry.<\/p>",
+            "button_label": "HOW IT WORK",
+            "button_link": "#"
+          }
+        },
+        "template--21066357670191__20d9df61-c1e0-4b7e-9f77-d0c497fc25e2-row-3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/heritage.jpg",
+            "caption": "",
+            "heading": "Start your own tradition.",
+            "text": "<p>From the medieval battlefield to modern times your Family Crest Jewelry piece is the connection to your past and<strong>a tradition to pass on to future generations<\/strong>.<\/p>",
+            "button_label": "FAMILY CREST JEWELARY",
+            "button_link": "#"
+          }
+        },
+        "8c4f134a-6ed5-4769-92ac-37491c0097df": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/crests.jpg",
+            "caption": "",
+            "heading": "Find your crest.",
+            "text": "<p>We offer you an extensive and wide library, with<strong>thousands of coat of arms and family histories<\/strong>. Heraldic Jewelry has a dedicated research facility that has the resources to track down the unique family crest for your name.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "694c0eae-3b42-4325-a7a2-3ba6a8c1ac54": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jewelry-box.jpg",
+            "caption": "",
+            "heading": "Lifetime Warranty.",
+            "text": "<p>We stand behind each unique jewelry piece we sell, and we are sure you will wear it with pride. Each of the custom features of your jewelry piece is carefully handcrafted. Our high standards are your assurance of lasting customer satisfaction.<\/p>",
+            "button_label": "OUR POLICIES",
+            "button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "template--21066357670191__20d9df61-c1e0-4b7e-9f77-d0c497fc25e2-row-1",
+        "template--21066357670191__20d9df61-c1e0-4b7e-9f77-d0c497fc25e2-row-2",
+        "template--21066357670191__20d9df61-c1e0-4b7e-9f77-d0c497fc25e2-row-3",
+        "8c4f134a-6ed5-4769-92ac-37491c0097df",
+        "694c0eae-3b42-4325-a7a2-3ba6a8c1ac54"
+      ],
+      "settings": {
+        "image_height": "medium",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "scheme-82c1e7fa-a23c-46fa-93bd-8168b13a44ea",
-        "image_behavior": "none",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "88a25716-49d6-4644-9809-3c0b7d47a776": {
-      "type": "Feature-slider",
+    "f7938a0b-947b-4bd4-b65a-94d8b629122c": {
+      "type": "review-slider",
+      "blocks": {
+        "13d9f2d4-c367-4fed-a6c3-4ab3fd7d18ff": {
+          "type": "block",
+          "settings": {
+            "review_content": "<p>\"Oh my goodness!!!!! I love the ring. The craftsmanship is breathtaking and the customer service is phenomenal!  I will definitely consider this company for gifts in the future.\"<\/p>"
+          }
+        },
+        "39088eaa-1e80-46f5-8c66-a86034d09740": {
+          "type": "block",
+          "settings": {
+            "review_content": "<p>\"Oh my goodness!!!!! I love the ring. The craftsmanship is breathtaking and the customer service is phenomenal!  I will definitely consider this company for gifts in the future.\"<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "13d9f2d4-c367-4fed-a6c3-4ab3fd7d18ff",
+        "39088eaa-1e80-46f5-8c66-a86034d09740"
+      ],
       "settings": {
-        "collection_main": "frontpage",
-        "collection_limit": 10,
-        "bg": "#b0b0b0",
-        "title": "Featured Collection Slider",
-        "img_width": 200,
-        "cell_align": "center",
-        "title_mb": 38,
-        "cell_width": "25%",
-        "wrap_around": "true",
-        "mr": 16
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
         "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "portrait",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 44,
+        "desktop_content_position": "right",
+        "review_title": "What customers are saying",
+        "padding_top": 36,
         "padding_bottom": 36
       }
     }
   },
   "order": [
     "image_banner",
-    "7026e4fe-ed96-438b-8d5d-ea9c9051455c",
-    "88a25716-49d6-4644-9809-3c0b7d47a776",
-    "featured_collection"
+    "e3b741aa-7f91-45a5-b7b5-4300edef1dcb",
+    "20d9df61-c1e0-4b7e-9f77-d0c497fc25e2",
+    "f7938a0b-947b-4bd4-b65a-94d8b629122c"
   ]
 }
