@@ -114,20 +114,88 @@
     display: block;
     transition: 0.5s all ease-in-out;
 }
-.review_content {
-    text-align: center;
-    width: 800px;
-    margin: 0 auto;
-}
 .tesimonials-title {
     text-align: center;
 }
+
+.template--index .multirow-wrapper .image-with-text__content {
+    padding: 0;
+}
+
+.template--index .multirow-wrapper .text {
+    padding: 0 64px;
+}
+
+.main-review_slider .slick-prev:before, .main-review_slider .slick-next:before {
+    position: absolute;
+    top: -40%;
+    color: #000;
+    font-size: 32px;
+}
+
+.main-review_slider .slick-next:before {
+    left: -36px;
+}
+
+.main-review_slider .slick-prev:before {
+    right: -36px;
+}
+
+.review_content {
+    width: 800px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.template--index .rich-text__caption {
+    margin: 5px 0 30px;
+}
+
+.template--index .rich-text__buttons {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.card-text__wrapper--center{
+    text-align: center;
+}
+.card-text__wrapper--left{
+    text-align: left;
+}
+.card-text__wrapper--right{
+    text-align: right;
+}
+
+.card_content_wrapper .card {
+    background: #fff;
+    padding: 64px;
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid #DAC7AA;
+    color: #1c1d1d;
+    margin-bottom: 15px;
+}
+.card_content_wrapper .card:last-child {
+    margin-bottom: 0;
+}
+@media screen and (min-width: 989px){
+    .review_content {
+        width: 800px;
+        max-width: 100%;
+    }   
+}
+
 
 @media screen and (min-width: 750px){
     .footer__payment {
         margin-top: 0rem;
     }
-    
+    .review_content {
+        text-align: center;
+        width: 540px;
+        margin: 0 auto;
+        max-width: 100%;
+    }
 }
 
 @media screen and (max-width: 989px) {
@@ -157,9 +225,6 @@
     .footer .footer_inner_wrapper .footer__content-bottom {
         width: 100%;
     }
-    /* .footer .footer-block.grid__item:first-child {
-        margin-top: 40px;
-    } */
     .footer .footer-block--newsletter {
         align-items: flex-start;
         margin-bottom: 16px;
@@ -183,5 +248,19 @@
     .footer .footer-block.grid__item {
         margin: 0;
     }
-
+    .template--index .multirow-wrapper .text {
+        padding: 64px;
+    }
+    .page-width {
+        padding: 0 2.5rem;
+    }
+    .slick-list {
+        max-width: 500px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .card_content_wrapper .card {
+        width: 100%;
+        padding: 24px;
+    }
 }

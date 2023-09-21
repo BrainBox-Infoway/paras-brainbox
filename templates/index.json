@@ -102,8 +102,8 @@
         "content_alignment": "center",
         "color_scheme": "scheme-82c1e7fa-a23c-46fa-93bd-8168b13a44ea",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     },
     "20d9df61-c1e0-4b7e-9f77-d0c497fc25e2": {
@@ -177,14 +177,14 @@
         "desktop_image_width": "medium",
         "heading_size": "h1",
         "text_style": "body",
-        "button_style": "secondary",
+        "button_style": "primary",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "image_layout": "alternate-left",
-        "section_color_scheme": "",
+        "section_color_scheme": "background-2",
         "row_color_scheme": "",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
+        "padding_top": 24,
         "padding_bottom": 36
       }
     },
@@ -194,13 +194,15 @@
         "13d9f2d4-c367-4fed-a6c3-4ab3fd7d18ff": {
           "type": "block",
           "settings": {
-            "review_content": "<p>\"Oh my goodness!!!!! I love the ring. The craftsmanship is breathtaking and the customer service is phenomenal!  I will definitely consider this company for gifts in the future.\"<\/p>"
+            "review_content": "<p>\"Oh my goodness!!!!! I love the ring. The craftsmanship is breathtaking and the customer service is phenomenal!  I will definitely consider this company for gifts in the future.\"<\/p>",
+            "review_customer": "M. Threlfall, Warrington, Cheshire, UK"
           }
         },
         "39088eaa-1e80-46f5-8c66-a86034d09740": {
           "type": "block",
           "settings": {
-            "review_content": "<p>\"Oh my goodness!!!!! I love the ring. The craftsmanship is breathtaking and the customer service is phenomenal!  I will definitely consider this company for gifts in the future.\"<\/p>"
+            "review_content": "<p>\"Oh my goodness!!!!! I love the ring. The craftsmanship is breathtaking and the customer service is phenomenal!  I will definitely consider this company for gifts in the future.\"<\/p>",
+            "review_customer": "D. Cushman, Wollongong, NSW, Australia"
           }
         }
       },
@@ -209,9 +211,73 @@
         "39088eaa-1e80-46f5-8c66-a86034d09740"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "desktop_content_position": "right",
         "review_title": "What customers are saying",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "070e1b7a-e07c-499d-9013-5622978f8997": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21066357670191__070e1b7a-e07c-499d-9013-5622978f8997-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "WE’RE READY TO HELP YOU",
+            "heading_size": "h1"
+          }
+        },
+        "template--21066357670191__070e1b7a-e07c-499d-9013-5622978f8997-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--21066357670191__070e1b7a-e07c-499d-9013-5622978f8997-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "START A FREE CONSULTATION",
+            "button_link": "#",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21066357670191__070e1b7a-e07c-499d-9013-5622978f8997-heading-1",
+        "template--21066357670191__070e1b7a-e07c-499d-9013-5622978f8997-text-1",
+        "template--21066357670191__070e1b7a-e07c-499d-9013-5622978f8997-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "9f9a6a73-4a6f-4c36-a5a1-fc8b042a644b": {
+      "type": "text-with-image-slider",
+      "blocks": {
+        "template--21066357670191__9f9a6a73-4a6f-4c36-a5a1-fc8b042a644b-text-1": {
+          "type": "text",
+          "settings": {
+            "title_text": "We Think Pink",
+            "sub_title_text": "La nostra Storia: vestire le Donne.",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21066357670191__9f9a6a73-4a6f-4c36-a5a1-fc8b042a644b-text-1"
+      ],
+      "disabled": true,
+      "settings": {
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -221,6 +287,8 @@
     "image_banner",
     "e3b741aa-7f91-45a5-b7b5-4300edef1dcb",
     "20d9df61-c1e0-4b7e-9f77-d0c497fc25e2",
-    "f7938a0b-947b-4bd4-b65a-94d8b629122c"
+    "f7938a0b-947b-4bd4-b65a-94d8b629122c",
+    "070e1b7a-e07c-499d-9013-5622978f8997",
+    "9f9a6a73-4a6f-4c36-a5a1-fc8b042a644b"
   ]
 }
