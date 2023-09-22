@@ -43,14 +43,14 @@
         "template--20939253973295__26f0e4db-38cf-415b-ac64-ec23922980a6-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "We Think Local",
+            "heading": "FAMILY CREST RINGS",
             "heading_size": "h1"
           }
         },
         "3fbb1099-d893-4689-8b46-05f4ce44cb81": {
           "type": "caption",
           "settings": {
-            "caption": "Made in Italy: dal tessuto alla confezione",
+            "caption": "",
             "text_style": "subtitle",
             "text_size": "medium"
           }
@@ -58,16 +58,15 @@
         "template--20939253973295__26f0e4db-38cf-415b-ac64-ec23922980a6-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Carla G. è un Brand che ha deciso di credere nel Territorio, nella qualità delle persone e del loro lavoro: se Vergato è il cuore del Brand, i 120 km attorno a Vergato sono le sue braccia, che con professionalità e meticolosa cura della qualità, realizzano da più di 50 anni un prodotto 100% Made in Italy: dal tessuto alla confezione.<\/p>",
+            "text": "<p>Proudly display the crest of your ancestors on our <a href=\"https:\/\/heraldicjewelry.com\/collections\/heraldic-jewelry-signature-collection\" title=\"Men's Rings\">Family Crest rings.<\/a> From the medieval battlefield to modern times your family crest ring is the connection to your past and a tradition to pass on to future generations.<br\/>Our family crest rings are made of solid Gold or Silver and are solid back construction of the highest quality. We only create Die-Stamped family crest rings, the gold standard in detailed jewelry production, this provides a richly engraved deep permanent impression that is guaranteed to last for many generations.<br\/>Our extensive research department in Europe will research the <a href=\"https:\/\/heraldicjewelry.com\/pages\/name-search\" target=\"_blank\">crest for your name<\/a> and we will always provide a proof prior to your purchase for you to approve or make changes.<br\/>Your family crest ring represents  Family, Country, Culture and Tradition. Take pride in your family crest, honour your ancestors and pass along to future generations.<\/p>",
             "text_style": "body"
           }
         },
         "template--20939253973295__26f0e4db-38cf-415b-ac64-ec23922980a6-button-1": {
           "type": "button",
-          "disabled": true,
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "EXPLORE RINGS",
+            "button_link": "shopify:\/\/pages\/family-crest-jewelry",
             "button_style_secondary": false
           }
         }
