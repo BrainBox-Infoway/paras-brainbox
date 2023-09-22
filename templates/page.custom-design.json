@@ -129,7 +129,7 @@
       ],
       "settings": {
         "card_title": "HOW IT WORKS",
-        "info_content": "<h4>ANY QUESTION? VISIT OUR <a href=\"\/pages\/custom-design\" title=\"Custom Design\">F.A.Q<\/a> OR <a href=\"\/pages\/contact\" title=\"Contact\">CONTACT US<\/a>.<\/h4>",
+        "info_content": "<h4>ANY QUESTION? VISIT OUR <a href=\"\/pages\/about-us\" title=\"About Us\">F.A.Q<\/a> OR <a href=\"\/pages\/contact\" title=\"Contact\">CONTACT US<\/a>.<\/h4>",
         "full_width": false,
         "color_scheme": "background-2",
         "desktop_content_position": "center",
