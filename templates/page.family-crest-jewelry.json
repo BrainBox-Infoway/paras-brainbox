@@ -177,7 +177,7 @@
         "template--21197903298863__d81b74b8-b878-4b0a-bed8-07723666212e-button-1"
       ],
       "settings": {
-        "show_page_width": false,
+        "show_page_width": true,
         "image": "shopify:\/\/shop_images\/Jennings_1_large_5085a219-67fe-4c28-8293-0c7945a814bb.png",
         "height": "small",
         "desktop_image_width": "small",
@@ -224,7 +224,8 @@
         "template--21197903298863__1de40bca-6aa0-4fee-8495-3248e46548b8-button-1"
       ],
       "settings": {
-        "show_page_width": false,
+        "show_page_width": true,
+        "image": "shopify:\/\/shop_images\/Blake_1_large_58c61318-0aec-4bfc-ad07-5ebdf408963c.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
