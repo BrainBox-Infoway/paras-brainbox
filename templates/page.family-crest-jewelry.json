@@ -37,47 +37,6 @@
         "show_text_below": false
       }
     },
-    "3d99eef0-50ae-4df3-8f43-5c9f2153d2f6": {
-      "type": "text-with-image-slider",
-      "blocks": {
-        "template--20939253973295__3d99eef0-50ae-4df3-8f43-5c9f2153d2f6-text-1": {
-          "type": "text",
-          "settings": {
-            "title_text": "We Think Pink",
-            "sub_title_text": "La nostra Storia: vestire le Donne.",
-            "description": "<p>La nostra Mission: creare per le Donne un guardaroba fatto di capi che vestono bene, che durano nel tempo, che soddisfano esigenze, ma soprattutto desideri.Carla G. è un’Azienda fatta di Donne: tre generazioni di Donne guidano il timone dell’Azienda e per il 90% sono Donne coloro che disegnano, confezionano, producono e conducono il lavoro.Credere nella forza delle Donne è il DNA di Carla G., prima ancora che l’empowerment diventasse un valore nel mondo del lavoro.Il Rosa è uno dei colori iconici del Brand, un colore che ha tante sfumature, ma un’unica essenza.<\/p>"
-          }
-        },
-        "template--20939253973295__3d99eef0-50ae-4df3-8f43-5c9f2153d2f6-columnimage-1": {
-          "type": "columnimage",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image_18.png"
-          }
-        },
-        "2ca2b946-3be3-46ce-ba11-eaab679494e3": {
-          "type": "columnimage",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image_17.png"
-          }
-        },
-        "719cfa3d-2490-48a3-822f-ce9f0f19c6b6": {
-          "type": "columnimage",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image_18.png"
-          }
-        }
-      },
-      "block_order": [
-        "template--20939253973295__3d99eef0-50ae-4df3-8f43-5c9f2153d2f6-text-1",
-        "template--20939253973295__3d99eef0-50ae-4df3-8f43-5c9f2153d2f6-columnimage-1",
-        "2ca2b946-3be3-46ce-ba11-eaab679494e3",
-        "719cfa3d-2490-48a3-822f-ce9f0f19c6b6"
-      ],
-      "settings": {
-        "padding_top": 80,
-        "padding_bottom": 80
-      }
-    },
     "26f0e4db-38cf-415b-ac64-ec23922980a6": {
       "type": "image-with-text",
       "blocks": {
@@ -134,12 +93,55 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "2f2331de-d6dd-4ace-b479-636bf8bd2291": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21197903298863__2f2331de-d6dd-4ace-b479-636bf8bd2291-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "DESIGN YOUR OWN CUSTOM JEWELRY PIECE",
+            "heading_size": "h2"
+          }
+        },
+        "template--21197903298863__2f2331de-d6dd-4ace-b479-636bf8bd2291-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--21197903298863__2f2331de-d6dd-4ace-b479-636bf8bd2291-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "START A FREE CONSULTATION",
+            "button_link": "shopify:\/\/pages\/family-crest-jewelry",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21197903298863__2f2331de-d6dd-4ace-b479-636bf8bd2291-heading-1",
+        "template--21197903298863__2f2331de-d6dd-4ace-b479-636bf8bd2291-text-1",
+        "template--21197903298863__2f2331de-d6dd-4ace-b479-636bf8bd2291-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "d76d919a-d798-42f4-9f6b-fd75dd12503e",
-    "3d99eef0-50ae-4df3-8f43-5c9f2153d2f6",
-    "26f0e4db-38cf-415b-ac64-ec23922980a6"
+    "26f0e4db-38cf-415b-ac64-ec23922980a6",
+    "2f2331de-d6dd-4ace-b479-636bf8bd2291"
   ]
 }
