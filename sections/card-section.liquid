@@ -11,53 +11,47 @@
     }
   }
 {%- endstyle -%}
-<section class="section-{{ section.id }}-padding">
-<div class="{% if section.settings.full_width %} page-width{% endif %} color-{{ section.settings.color_scheme }} gradient main-review_slider rich-text__wrapper--{{ section.settings.desktop_content_position }}">
-  {%- if section.settings.review_title != blank -%}
-    <div class="testimonials-wrapper">
-        <h2 class="tesimonials-title">{{ section.settings.review_title }}</h2>
+<section class="section-{{ section.id }}-padding color-{{ section.settings.color_scheme }} gradient">
+<div class="{% if section.settings.full_width %} page-width{% endif %} rte rte--nomargin rte--indented-images">
+  <div class="card_content_wrapper">
+  <h1 class="card_title_wrapper card-text__wrapper--{{ section.settings.desktop_content_position }}">{{ section.settings.card_title }}</h1>
+  {%- for block in section.blocks -%}
+    <div class="card">
+      <h2 class="card_inner_title">{{ block.settings.card_inner_title }}</h2>
+      <div class="card_inner_wrapper">
+        {{ block.settings.card_inner_content }}
+      </div>
     </div>
-  {%- endif -%}  
-    <div class="review-slider">
-        {%- for block in section.blocks -%}
-            <div class="review">
-              {%- if block.settings.review_content != blank -%}
-                <div class="review_content">
-                  {{ block.settings.review_content }}
-                  <h3 class="review_customer_name">{{ block.settings.review_customer }}</h3>
-                </div>
-              {%- endif -%}
-            </div>
-        {%- endfor -%} 
-        <!-- Add more review items as needed -->
-    </div>            
+  {%- endfor -%}
+  <div class="card-text__wrapper--{{ section.settings.desktop_content_position }}">{{ section.settings.info_content }}</div>
 </div>
 </section>
-<script>
-    $(document).ready(function(){
-      $('.review-slider').slick({
-        slidesToShow: 1, // Number of slides to show at a time
-        slidesToScroll: 1, // Number of slides to scroll
-        autoplay: true, // Auto-play the slider
-        autoplaySpeed: 5000, // Delay between slides in milliseconds (5 seconds in this example)
-      });
-    });
-</script>
 {% schema %}
 {
-    "name": "Review Slider",
+    "name": "Card Section",
     "settings": [
         {
           "type": "text",
-          "id": "review_title",
-          "label": "Review Title",
-          "default": "What customers are saying"
+          "id": "card_title",
+          "label": "Section Title",
+          "default": "HOW IT WORKS"
+        },  
+        {
+          "type": "richtext",
+          "id": "info_content",
+          "label": "Info content"
         },
         {
             "type": "checkbox",
             "id": "full_width",
             "label": "Make a section full width",
             "default": false
+        },
+        {
+          "type": "color_scheme",
+          "id": "color_scheme",
+          "label": "t:sections.all.colors.label",
+          "default": "background-1"
         },
         {
             "type": "select",
@@ -79,12 +73,6 @@
             "default": "center",
             "label": "t:sections.rich-text.settings.desktop_content_position.label",
             "info": "t:sections.rich-text.settings.desktop_content_position.info"
-        },
-        {
-          "type": "color_scheme",
-          "id": "color_scheme",
-          "label": "t:sections.all.colors.label",
-          "default": "background-1"
         },
         {
             "type": "range",
@@ -113,22 +101,22 @@
             "name": "block",
             "settings": [
               {
-                  "type": "richtext",
-                  "id": "review_content",
-                  "label": "Review content"
+                "type": "text",
+                "id": "card_inner_title",
+                "label": "Card Content Title",
+                "default": "1- REQUEST A CONSULTATION"
               },
               {
-                "type": "text",
-                "id": "review_customer",
-                "label": "Review Content Title",
-                "default": "M. Threlfall, Warrington, Cheshire, UK"
+                  "type": "richtext",
+                  "id": "card_inner_content",
+                  "label": "Card content"
               }
             ]
         }
     ],
     "presets": [
         {
-          "name": "Review Slider"
+          "name": "Card Section"
         }
       ]
 } 
