@@ -251,6 +251,7 @@
         },
         "template--21197903298863__6e2a0a2d-b60c-4403-b0c1-9b7366169805-text-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
           }
@@ -258,8 +259,8 @@
         "template--21197903298863__6e2a0a2d-b60c-4403-b0c1-9b7366169805-button-1": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "START A FREE CONSULTATION",
+            "button_link": "shopify:\/\/pages\/custom-design",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
