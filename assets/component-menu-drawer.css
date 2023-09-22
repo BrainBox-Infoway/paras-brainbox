@@ -90,7 +90,7 @@ details[open].menu-opening > .menu-drawer__submenu {
 }
 
 .menu-drawer__navigation {
-  padding: 3rem 0;
+  padding: 3rem;
 }
 
 .menu-drawer__inner-submenu {
@@ -113,6 +113,9 @@ details[open].menu-opening > .menu-drawer__submenu {
 
 .js .menu-drawer__menu li {
   margin-bottom: 0.2rem;
+  border-bottom: 1px solid #FFF;
+  margin-right: 0;
+  padding: 10px 0px
 }
 
 .menu-drawer__menu-item {
@@ -161,7 +164,7 @@ details[open].menu-opening > .menu-drawer__submenu {
 
 .menu-drawer__menu-item > .icon-arrow {
   position: absolute;
-  right: 3rem;
+  right: 0;
   top: 50%;
   transform: translateY(-50%);
 }

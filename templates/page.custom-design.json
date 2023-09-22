@@ -1,0 +1,191 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "d76d919a-d798-42f4-9f6b-fd75dd12503e": {
+      "type": "image-banner",
+      "blocks": {
+        "7c49782e-1d11-4630-8e4b-96925ea2ab60": {
+          "type": "heading",
+          "settings": {
+            "heading": "Custom Design",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "7c49782e-1d11-4630-8e4b-96925ea2ab60"
+      ],
+      "settings": {
+        "show_page_width": false,
+        "image": "shopify:\/\/shop_images\/image_16.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "80215d01-da86-45ff-bfbf-0b31621bf9e1": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21197911458095__80215d01-da86-45ff-bfbf-0b31621bf9e1-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "DESIGN YOUR OWN CUSTOM JEWELRY PIECE",
+            "heading_size": "h2"
+          }
+        },
+        "template--21197911458095__80215d01-da86-45ff-bfbf-0b31621bf9e1-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--21197911458095__80215d01-da86-45ff-bfbf-0b31621bf9e1-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "START A FREE CONSULTATION",
+            "button_link": "shopify:\/\/pages\/custom-design",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "49afcaae-433b-4563-9b62-fb15e160db8a": {
+          "type": "caption",
+          "settings": {
+            "caption": "How it works?",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "template--21197911458095__80215d01-da86-45ff-bfbf-0b31621bf9e1-heading-1",
+        "template--21197911458095__80215d01-da86-45ff-bfbf-0b31621bf9e1-text-1",
+        "template--21197911458095__80215d01-da86-45ff-bfbf-0b31621bf9e1-button-1",
+        "49afcaae-433b-4563-9b62-fb15e160db8a"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "c915c413-4497-4bd1-bb2d-cab3baf7f2d3": {
+      "type": "card-section",
+      "blocks": {
+        "91f76cea-486f-4d9e-8929-e8eedb2e571d": {
+          "type": "block",
+          "settings": {
+            "card_inner_title": "1- REQUEST A CONSULTATION",
+            "card_inner_content": "<p>Share your ideas by filling our simple consultation form. Find your crest or upload your own design, tell us what you would like and set your budget.<\/p>"
+          }
+        },
+        "bbf30a64-8d1b-4c60-9bda-211a5e36763d": {
+          "type": "block",
+          "settings": {
+            "card_inner_title": "2- DISCUSS YOUR DESIGN",
+            "card_inner_content": "<p>Our experts will guide you in the process of transforming your ideas into a unique jewelry design.<\/p>"
+          }
+        },
+        "7495c0d9-b067-4488-b212-db12f63386fc": {
+          "type": "block",
+          "settings": {
+            "card_inner_title": "3- PROOF & FINE TUNE",
+            "card_inner_content": "<p>Receive a proof image of your design and, along with your consultant, adjust and tune it. We won’t finish until you are happy with it.<\/p>"
+          }
+        },
+        "cf0d8af9-2a5c-4b20-9d37-9c09dca64793": {
+          "type": "block",
+          "settings": {
+            "card_inner_title": "4- OWN IT",
+            "card_inner_content": "<p>We will create your heirloom piece and get it delivered as soon as possible. Our life-time warranty will protect it.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "91f76cea-486f-4d9e-8929-e8eedb2e571d",
+        "bbf30a64-8d1b-4c60-9bda-211a5e36763d",
+        "7495c0d9-b067-4488-b212-db12f63386fc",
+        "cf0d8af9-2a5c-4b20-9d37-9c09dca64793"
+      ],
+      "settings": {
+        "card_title": "HOW IT WORKS",
+        "info_content": "<h4>ANY QUESTION? VISIT OUR <a href=\"\/pages\/about-us\" title=\"About Us\">F.A.Q<\/a> OR <a href=\"\/pages\/contact\" title=\"Contact\">CONTACT US<\/a>.<\/h4>",
+        "full_width": false,
+        "color_scheme": "background-2",
+        "desktop_content_position": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "d0773699-70cd-4a94-9a2e-e97028f18953": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21197911458095__d0773699-70cd-4a94-9a2e-e97028f18953-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "WE’RE READY TO HELP YOU",
+            "heading_size": "h2"
+          }
+        },
+        "template--21197911458095__d0773699-70cd-4a94-9a2e-e97028f18953-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--21197911458095__d0773699-70cd-4a94-9a2e-e97028f18953-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "START A FREE CONSULTATION",
+            "button_link": "shopify:\/\/pages\/custom-design",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21197911458095__d0773699-70cd-4a94-9a2e-e97028f18953-heading-1",
+        "template--21197911458095__d0773699-70cd-4a94-9a2e-e97028f18953-text-1",
+        "template--21197911458095__d0773699-70cd-4a94-9a2e-e97028f18953-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    }
+  },
+  "order": [
+    "main",
+    "d76d919a-d798-42f4-9f6b-fd75dd12503e",
+    "80215d01-da86-45ff-bfbf-0b31621bf9e1",
+    "c915c413-4497-4bd1-bb2d-cab3baf7f2d3",
+    "d0773699-70cd-4a94-9a2e-e97028f18953"
+  ]
+}

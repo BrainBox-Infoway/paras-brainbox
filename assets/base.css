@@ -2467,7 +2467,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
 
 .header__heading-link {
   display: inline-block;
-  padding: 0.75rem;
+  /* padding: 0.75rem; */
   text-decoration: none;
   word-break: break-word;
 }
@@ -3556,12 +3556,5 @@ details-disclosure > details {
 
 .list-menu li .list-menu__item {
   padding: 0;
-}
-
-.js details[open].menu-opening>.menu-drawer {
-  transform: unset !important;
-  visibility: unser !important;
-}
-.js .menu-drawer__navigation .submenu-open {
-  visibility: unset !important;
+  background: transparent;
 }
