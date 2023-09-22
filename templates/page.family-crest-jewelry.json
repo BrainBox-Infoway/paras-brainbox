@@ -151,7 +151,7 @@
         "template--21197903298863__d81b74b8-b878-4b0a-bed8-07723666212e-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "PENDANTS",
             "heading_size": "h1"
           }
         },
@@ -165,8 +165,8 @@
         "template--21197903298863__d81b74b8-b878-4b0a-bed8-07723666212e-button-1": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "EXPLORE PENDANTS",
+            "button_link": "shopify:\/\/pages\/custom-design",
             "button_style_secondary": false
           }
         }
