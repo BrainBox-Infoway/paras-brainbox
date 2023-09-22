@@ -226,9 +226,9 @@
       "settings": {
         "show_page_width": true,
         "image": "shopify:\/\/shop_images\/Blake_1_large_58c61318-0aec-4bfc-ad07-5ebdf408963c.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
