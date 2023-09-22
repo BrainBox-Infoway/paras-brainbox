@@ -15,7 +15,7 @@
           "type": "heading",
           "settings": {
             "heading": "Family Crest Jewelry",
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
         }
       },
@@ -23,10 +23,10 @@
         "2ec7c52a-b6fd-46e1-9bbd-6cdf024e2401"
       ],
       "settings": {
-        "show_page_width": true,
+        "show_page_width": false,
         "image": "shopify:\/\/shop_images\/image_16.png",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "small",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
