@@ -37,6 +37,58 @@
         "show_text_below": false
       }
     },
+    "2f2331de-d6dd-4ace-b479-636bf8bd2291": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21197903298863__2f2331de-d6dd-4ace-b479-636bf8bd2291-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "DESIGN YOUR OWN CUSTOM JEWELRY PIECE",
+            "heading_size": "h2"
+          }
+        },
+        "template--21197903298863__2f2331de-d6dd-4ace-b479-636bf8bd2291-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--21197903298863__2f2331de-d6dd-4ace-b479-636bf8bd2291-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "START A FREE CONSULTATION",
+            "button_link": "shopify:\/\/pages\/family-crest-jewelry",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "befa639a-7b0f-4deb-a1ee-71b245916c62": {
+          "type": "caption",
+          "settings": {
+            "caption": "How it works?",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "template--21197903298863__2f2331de-d6dd-4ace-b479-636bf8bd2291-heading-1",
+        "template--21197903298863__2f2331de-d6dd-4ace-b479-636bf8bd2291-text-1",
+        "template--21197903298863__2f2331de-d6dd-4ace-b479-636bf8bd2291-button-1",
+        "befa639a-7b0f-4deb-a1ee-71b245916c62"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "26f0e4db-38cf-415b-ac64-ec23922980a6": {
       "type": "image-with-text",
       "blocks": {
@@ -86,70 +138,18 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "",
+        "color_scheme": "background-2",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "2f2331de-d6dd-4ace-b479-636bf8bd2291": {
-      "type": "rich-text",
-      "blocks": {
-        "template--21197903298863__2f2331de-d6dd-4ace-b479-636bf8bd2291-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "DESIGN YOUR OWN CUSTOM JEWELRY PIECE",
-            "heading_size": "h2"
-          }
-        },
-        "template--21197903298863__2f2331de-d6dd-4ace-b479-636bf8bd2291-text-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "template--21197903298863__2f2331de-d6dd-4ace-b479-636bf8bd2291-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "START A FREE CONSULTATION",
-            "button_link": "shopify:\/\/pages\/family-crest-jewelry",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        },
-        "befa639a-7b0f-4deb-a1ee-71b245916c62": {
-          "type": "caption",
-          "settings": {
-            "caption": "How it works?",
-            "text_style": "subtitle",
-            "text_size": "medium"
-          }
-        }
-      },
-      "block_order": [
-        "template--21197903298863__2f2331de-d6dd-4ace-b479-636bf8bd2291-heading-1",
-        "template--21197903298863__2f2331de-d6dd-4ace-b479-636bf8bd2291-text-1",
-        "template--21197903298863__2f2331de-d6dd-4ace-b479-636bf8bd2291-button-1",
-        "befa639a-7b0f-4deb-a1ee-71b245916c62"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-2",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     }
   },
   "order": [
     "main",
     "d76d919a-d798-42f4-9f6b-fd75dd12503e",
-    "26f0e4db-38cf-415b-ac64-ec23922980a6",
-    "2f2331de-d6dd-4ace-b479-636bf8bd2291"
+    "2f2331de-d6dd-4ace-b479-636bf8bd2291",
+    "26f0e4db-38cf-415b-ac64-ec23922980a6"
   ]
 }
