@@ -7,64 +7,33 @@
         "padding_bottom": 28
       }
     },
-    "e39add8c-155c-4fed-b9ab-73ae4a5a20c3": {
-      "type": "multicolumn",
+    "d76d919a-d798-42f4-9f6b-fd75dd12503e": {
+      "type": "image-banner",
       "blocks": {
-        "template--20939253973295__e39add8c-155c-4fed-b9ab-73ae4a5a20c3-column-1": {
-          "type": "column",
+        "7c49782e-1d11-4630-8e4b-96925ea2ab60": {
+          "type": "heading",
           "settings": {
-            "title": "",
-            "text": "<p>L'Azienda viene fondata nel 1969 da Carlo Generali a Vergato, in provincia di Bologna, dove tutt'ora mantiene orgogliosamente la sua sede. Dal 2011 l'Azienda è guidata dalla figlia Carla, che è anche la designer della Collezione. Design & fully Made in Italy, Carla G. è un Brand che propone un total-look (apparel e accessori), con posizionamento premium.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--20939253973295__e39add8c-155c-4fed-b9ab-73ae4a5a20c3-column-2": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "<p>Complice la formazione da modellista di Carla, il Brand è attentissimo al fit e fa della perfetta vestibilità dei capi uno dei principali punti di forza, insieme alla versatilità: le Collezioni, ampie e adatte a molte occasioni d'uso sono pensate per essere trasversali e grazie all'attenta scelta dei materiali, i capi del Brand si distinguono da sempre per la loro durabilità.<\/p>",
-            "link_label": "",
-            "link": ""
+            "heading": "Custom Design",
+            "heading_size": "h1"
           }
         }
       },
       "block_order": [
-        "template--20939253973295__e39add8c-155c-4fed-b9ab-73ae4a5a20c3-column-1",
-        "template--20939253973295__e39add8c-155c-4fed-b9ab-73ae4a5a20c3-column-2"
+        "7c49782e-1d11-4630-8e4b-96925ea2ab60"
       ],
       "settings": {
-        "title": "Chi siamo",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 52
-      }
-    },
-    "d76d919a-d798-42f4-9f6b-fd75dd12503e": {
-      "type": "image-banner",
-      "settings": {
-        "show_page_width": true,
+        "show_page_width": false,
         "image": "shopify:\/\/shop_images\/image_16.png",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "small",
         "desktop_content_position": "middle-center",
-        "show_text_box": true,
+        "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "inverse",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": false
       }
     },
     "3d99eef0-50ae-4df3-8f43-5c9f2153d2f6": {
@@ -168,7 +137,6 @@
   },
   "order": [
     "main",
-    "e39add8c-155c-4fed-b9ab-73ae4a5a20c3",
     "d76d919a-d798-42f4-9f6b-fd75dd12503e",
     "3d99eef0-50ae-4df3-8f43-5c9f2153d2f6",
     "26f0e4db-38cf-415b-ac64-ec23922980a6"
