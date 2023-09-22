@@ -91,6 +91,42 @@
     },
     "c915c413-4497-4bd1-bb2d-cab3baf7f2d3": {
       "type": "card-section",
+      "blocks": {
+        "91f76cea-486f-4d9e-8929-e8eedb2e571d": {
+          "type": "block",
+          "settings": {
+            "card_inner_title": "1- REQUEST A CONSULTATION",
+            "card_inner_content": "<p>Share your ideas by filling our simple consultation form. Find your crest or upload your own design, tell us what you would like and set your budget.<\/p>"
+          }
+        },
+        "bbf30a64-8d1b-4c60-9bda-211a5e36763d": {
+          "type": "block",
+          "settings": {
+            "card_inner_title": "2- DISCUSS YOUR DESIGN",
+            "card_inner_content": "<p>Our experts will guide you in the process of transforming your ideas into a unique jewelry design.<\/p>"
+          }
+        },
+        "7495c0d9-b067-4488-b212-db12f63386fc": {
+          "type": "block",
+          "settings": {
+            "card_inner_title": "3- PROOF & FINE TUNE",
+            "card_inner_content": "<p>Receive a proof image of your design and, along with your consultant, adjust and tune it. We won’t finish until you are happy with it.<\/p>"
+          }
+        },
+        "cf0d8af9-2a5c-4b20-9d37-9c09dca64793": {
+          "type": "block",
+          "settings": {
+            "card_inner_title": "4- OWN IT",
+            "card_inner_content": "<p>We will create your heirloom piece and get it delivered as soon as possible. Our life-time warranty will protect it.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "91f76cea-486f-4d9e-8929-e8eedb2e571d",
+        "bbf30a64-8d1b-4c60-9bda-211a5e36763d",
+        "7495c0d9-b067-4488-b212-db12f63386fc",
+        "cf0d8af9-2a5c-4b20-9d37-9c09dca64793"
+      ],
       "settings": {
         "card_title": "HOW IT WORKS",
         "info_content": "",
