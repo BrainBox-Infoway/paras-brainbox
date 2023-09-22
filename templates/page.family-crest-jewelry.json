@@ -121,12 +121,21 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
+        },
+        "befa639a-7b0f-4deb-a1ee-71b245916c62": {
+          "type": "caption",
+          "settings": {
+            "caption": "How it works?",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
         }
       },
       "block_order": [
         "template--21197903298863__2f2331de-d6dd-4ace-b479-636bf8bd2291-heading-1",
         "template--21197903298863__2f2331de-d6dd-4ace-b479-636bf8bd2291-text-1",
-        "template--21197903298863__2f2331de-d6dd-4ace-b479-636bf8bd2291-button-1"
+        "template--21197903298863__2f2331de-d6dd-4ace-b479-636bf8bd2291-button-1",
+        "befa639a-7b0f-4deb-a1ee-71b245916c62"
       ],
       "settings": {
         "desktop_content_position": "center",
