@@ -57,7 +57,7 @@
           "type": "heading",
           "settings": {
             "heading": "DESIGN YOUR OWN CUSTOM JEWELRY PIECE",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "template--21066357670191__e3b741aa-7f91-45a5-b7b5-4300edef1dcb-button-1": {
@@ -102,8 +102,8 @@
         "content_alignment": "center",
         "color_scheme": "scheme-82c1e7fa-a23c-46fa-93bd-8168b13a44ea",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     },
     "20d9df61-c1e0-4b7e-9f77-d0c497fc25e2": {
@@ -161,7 +161,7 @@
             "heading": "Lifetime Warranty.",
             "text": "<p>We stand behind each unique jewelry piece we sell, and we are sure you will wear it with pride. Each of the custom features of your jewelry piece is carefully handcrafted. Our high standards are your assurance of lasting customer satisfaction.<\/p>",
             "button_label": "OUR POLICIES",
-            "button_link": "#"
+            "button_link": "shopify:\/\/pages\/policies"
           }
         }
       },
@@ -177,12 +177,12 @@
         "desktop_image_width": "medium",
         "heading_size": "h1",
         "text_style": "body",
-        "button_style": "secondary",
+        "button_style": "primary",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "image_layout": "alternate-left",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
+        "section_color_scheme": "background-2",
+        "row_color_scheme": "background-1",
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
